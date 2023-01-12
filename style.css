@@ -569,10 +569,26 @@ p{
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
 #footer .footer{
+    margin: auto;
     min-height: 400px;
+    max-width: 1140px;
     padding-top: 50px;
     padding-bottom: 10px;
     flex-direction: column;
+}
+
+.row {
+    width: 100%;
+}
+
+.col-md-12 h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 #footer h2{
     font-size: 1.8rem;
