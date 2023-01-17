@@ -402,23 +402,19 @@ p{
     height: 300px;
     overflow: hidden;
     position: relative;
+    border: 1px solid rgba(7, 7, 7, 0.11);
 }
-#projects .project-img::after{
-    content: '';
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    opacity: .7;
-}
+
 #projects .project-img img{
     height: 100%;
     transition: .3s ease transform;
 }
 #projects .project-item:hover .project-img img{
     transform: scale(1.1);
+}
+
+#projects .title-color {
+    color: #07bc0c;
 }
 
 /* End Project Section */
