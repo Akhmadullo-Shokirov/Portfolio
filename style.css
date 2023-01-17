@@ -462,6 +462,11 @@ p{
     border: 7px solid #07bc0c;
     z-index: -1;
 }
+
+#about .about-img img {
+    border-radius: 7px;
+}
+
 #about .tools-icon{
     flex-direction: column;
     text-align: center;
