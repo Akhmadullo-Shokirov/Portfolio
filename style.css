@@ -420,6 +420,9 @@ p{
 /* End Project Section */
 
 /* About Section */
+#about {
+    margin: 0 auto 80px;
+}
 #about .about{
     flex-direction: column-reverse;
     text-align: center;
