@@ -277,77 +277,6 @@ p{
 }
 /* End Hero Section */
 
-/* Services Section */
-#services .services{
-    flex-direction: column;
-    text-align: center;
-    max-width: 1500px;
-    margin: 0 auto;
-    padding: 100px 0;
-}
-#services .service-top{
-    max-width: 500px;
-    margin: 0 auto;
-}
-#services .service-top p{
-    color: black;
-    font-size: 1.4rem;
-    margin-top: 5px;
-    line-height: 2.5rem;
-    font-weight: 300;
-    letter-spacing: .05rem;
-}
-#services .service-bottom{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 50px;
-}
-#services .service-item{
-    flex-basis: 80%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    padding: 20px;
-    border-radius: 10px;
-    background-image: url(./img/img-1.jpeg);
-    background-size: cover;
-    margin: 10px 5%;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-}
-#services .service-item::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    opacity: .9;
-    z-index: -1;
-}
-#services .service-bottom .icon{
-    height: 80px;
-    width: 80px;
-    margin-bottom: 30px;
-}
-#services .service-item h2{
-    font-size: 2rem;
-    color: white;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-}
-#services .service-item p{
-    color: white;
-    text-align: left;
-}
-    
-/* End Services Section */
-
 /* Projects Section */
 #projects .projects{
     flex-direction: column;
@@ -504,14 +433,11 @@ p{
     cursor: pointer;
 }
 #about .tools-icon .tools .tool h3{
-    color: white;
-    transition: .3s ease color;
-}
-#about .tools-icon .tools .tool:hover h3{
     display: block;
     color: black;
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: .3s ease color;
 }
 #about .tools-icon .tools .tool img{
     height: 60px;
@@ -600,14 +526,20 @@ p{
     box-sizing: border-box;
     margin-right: .5rem;
 }
+#footer .list-inline-item a {
+    display: inline-block;
+    text-align: center;
+    height: 50px;
+    width: 50px;
 
-#footer .list-inline-item img{
-    filter: grayscale(1);
-    transition: .3s ease filter;
+}
+#footer .list-inline-item i {
+    font-size: 3.5rem;
+    color: white;
 }
 
-#footer .list-inline-item:hover img{
-    filter: grayscale(0);
+#footer .list-inline-item i:hover {
+    color: #07bc0c;
 }
 
 #footer .card {
@@ -852,13 +784,6 @@ p{
         padding: 15px 40px;
     }
     /* End Hero */
-    
-    /* Service Section */
-    #services .service-bottom .service-item{
-        flex-basis: 45%;
-        margin: 2.5%;
-    }
-    /* End Service Section */
 
     /* Projects Section */
     #projects .project-item{
@@ -931,11 +856,5 @@ p{
         font-size: 1.8rem;
     }
     /* End Header */
-    /* Service Section */
-    #services .service-bottom .service-item{
-        flex-basis: 22%;
-        margin: 1.5%;
-    }
-    /* Service Section */
 }
 /* End Media Query For Desktop */

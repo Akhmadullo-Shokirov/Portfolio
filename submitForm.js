@@ -15,7 +15,7 @@ function closePopup() {
     popup.classList.remove('open-popup');
 }
 const submitForm = () => {
-    axios.post('http://localhost:3000/form/submit', {
+    axios.post('http://akhmadullo.ddns.net:3000/form/submit', {
         fullName: fullName.value,
         email: emailAddress.value,
         message: comment.value,
