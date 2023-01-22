@@ -817,6 +817,20 @@ p{
     #about .tools-icon .proficiency p{
         display: none;
     }
+
+    #footer .footer .row .col-md-12 h1 {
+        margin-left: 5%;
+    }
+
+    #footer .footer .row .col2-md-12 .col-md-6 {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    #footer .footer .row .col2-md-12 .card {
+        width: 90%;
+        margin-right: 5%;
+    }
 }
 /* End Media Query For Mobile Phone */
 /* Media Query For Tablet */
